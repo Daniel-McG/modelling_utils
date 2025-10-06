@@ -33,6 +33,7 @@ import numpy as np
 def user_fn(x,a,b):
     return a*np.sin(x[0])+np.exp(b*x[1])
 ```
+data.csv
 ```csv
 x,y,z
 0.000000000000000000e+00,1.000000000000000000e+01,-1.754836588871176994e-01
@@ -123,3 +124,4 @@ This tool performs parameter estimation and global sensitivity analysis for user
 - [ ] Add citations for statements in the captions of figures
 - [ ] Add ability to override the axis labels on the figures
 - [x] Update dependant variable to be on the y axis of the graphs
+
