@@ -1,8 +1,0 @@
-[fitted_model]
-caption = "Line graph showing fitted model and training data"
-[studentised_residuals]
-caption = "Studentised residuals show any systematic error in the model. In an ideal case the studentised residuals should be normally distributed around zero"
-[sobol_index]
-caption = " Total order sobol indexes show the relative contribution to the model prediction of each parameter at a given input. "
-[confidence_ellipsoid]
-caption = " The skew-ness of the parameter confidence ellipsoid shows the covariance of the two model parameters. If the confidence ellipsoid intersects zero on one of the axis this suggests that the parameter is redundant and can be removed."
