@@ -1,6 +1,4 @@
 # Modelling Utils
-## WARNING:
-This project was created as a CS50x final project. It is a toy project. It is not to be relied upon.
 #### Description:
 This tool simplifies model fitting and analysis.
 
@@ -95,13 +93,13 @@ The tool writes JSON to stdout with the following structure:
 ##### Report:
 A HTML report is also generated with interactive graphs using plotly. The report is structured and formatted using bootstrap.
 #### Contents:
-* ./example/data.csv: example data used to fit example function
-* ./example/user\_fn.py
-* ./templates/template.html: [Jinja]("https://jinja.palletsprojects.com/en/stable/") template used for generating report.html
-* ./lib.py: Library containing the RawDataset, CleanDataset, and FittedModel classes. This was factored out of the tool.py to allow others to use the fitting code without forcing them to use the tool,
-* ./tool.py: script to parse arguments and fit the model using the classes defined in lib.py
-* ./report.py: Library used to generate the HTML report.
-* ./reporttext.toml: Config file containing the captions in the HTML report
+* ./examples/data/data.csv: example data used to fit example function
+* ./examples/data/user\_fn.py
+* ./examples/templates/template.html: [Jinja]("https://jinja.palletsprojects.com/en/stable/") template used for generating report.html
+* ./modelling_utils.py: Library containing the RawDataset, CleanDataset, and FittedModel classes. This was factored out of the tool.py to allow others to use the fitting code without forcing them to use the tool,
+* ./examples/tool.py: script to parse arguments and fit the model using the classes defined in lib.py
+* ./examples/report.py: Library used to generate the HTML report.
+* ./examples/reporttext.toml: Config file containing the captions in the HTML report
 #### Modelling Theory:
 This tool performs parameter estimation and global sensitivity analysis for user-defined models. The outputs provide information about model fit, parameter identifiability, and the relative importance of each parameter.
 
