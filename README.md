@@ -120,6 +120,8 @@ This tool performs parameter estimation and global sensitivity analysis for user
 
 #### Roadmap:
 - [ ] Add citations for statements in the captions of figures
+- [ ] Add Chi^2 goodness of fit test
 - [ ] Add ability to override the axis labels on the figures
 - [x] Update dependant variable to be on the y axis of the graphs
+
 
